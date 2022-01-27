@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2442404822791427303}
   - component: {fileID: 2442404822791427297}
   - component: {fileID: 2442404822791427302}
+  - component: {fileID: 5691988985426319301}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96686a5216f7b6b4b8b25272bf2ebd06, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -148,6 +149,24 @@ MonoBehaviour:
   myRigidBody: {fileID: 2442404822791427303}
   jumpforce: 500
   inputController: {fileID: 6249522562178977989}
+  groundChecker: {fileID: 5691988985426319301}
+--- !u!114 &5691988985426319301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2442404822791427304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01aba95ca886b24eb265f7f15d9fd64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundCheckLenght: 0.5
+  groundCheckRadius: 0.51
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &2820771114308598079
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,5 +211,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac510545b02168a4683b38df7f771995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveInput: 0
-  jumpInput: 0
