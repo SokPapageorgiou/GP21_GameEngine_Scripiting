@@ -166,7 +166,7 @@ MonoBehaviour:
   groundCheckRadius: 0.51
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!1 &2820771114308598079
 GameObject:
   m_ObjectHideFlags: 0
