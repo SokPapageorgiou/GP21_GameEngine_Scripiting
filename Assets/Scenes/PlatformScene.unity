@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 2029911911}
   - component: {fileID: 2029911910}
   - component: {fileID: 2029911914}
+  - component: {fileID: 2029911916}
   - component: {fileID: 2029911915}
   m_Layer: 0
   m_Name: Player
@@ -556,12 +557,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2029911909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84c3387d84adb0e44a17c1782e97ea12, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c28ac37dd00ae7499a232a5da497ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 2029911914}
+  jumpforce: 500
+--- !u!114 &2029911916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029911909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc94fb712ff9d40418a9e55253cd7be4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 2029911914}
   moveSpeed: 5
-  jumpforce: 500
 --- !u!1 &2073408776
 GameObject:
   m_ObjectHideFlags: 0
